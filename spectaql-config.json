@@ -1,0 +1,10 @@
+{
+    "introspection": {
+      "url": "http://localhost:4000/graphql"
+    },
+    "info": {
+      "title": "Ukraine History API",
+      "description": "GraphQL API for learning the history of Ukraine"
+    }
+  }
+  

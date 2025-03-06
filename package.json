@@ -1,0 +1,30 @@
+{
+  "name": "ukraine-history-api",
+  "version": "1.0.0",
+  "description": "A GraphQL API for learning the history of Ukraine",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "seed": "ts-node seed.ts",
+    "docs": "spectaql spectaql-config.json --target-dir docs"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.8",
+    "apollo-server": "^3.12.0",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "serve-static": "^1.16.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "nodemon": "^3.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
