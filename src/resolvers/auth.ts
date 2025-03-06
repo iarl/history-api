@@ -27,7 +27,7 @@ export const authResolvers = {
       return { message: "User registered successfully" };
     },
 
-    login: async (_, { username, password }: LoginArgs) => {
+    login: async (_: any, { username, password }: LoginArgs) => {
       const user = await UserModel.findOne({ username });
       if (!user) throw new AuthenticationError("User not found");
 
